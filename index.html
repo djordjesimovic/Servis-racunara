@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servis Racunara</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+    
+    <header>
+        <div class="preheader">
+            <i class="fas fa-user"></i>
+            <h4>Moj nalog
+                <div class="prijava">
+                    <ul>
+                        <li><i class="fas fa-pen"></i>Registracija</li>
+                        <li><i class="fas fa-lock-alt"></i>Log In</li>
+                        <li><i class="fas fa-heart"></i>Lista Zelja</li>
+                    </ul>
+                </div>
+            </h4>
+            
+        </div>
+
+        <div class="main-header">
+            <a href=""><img src="/img/logo.PNG" alt=""></a>
+
+            <ul class="meni">
+                <li> <a href="">Pos oprema</a> </li>
+                <li><a href="">Lista Zelja</a></li>
+                <li><a href="">Servis</a></li>
+                <li><a href="">Kontakt</a></li>
+                <li><a href="">Brendovi</a></li>
+            </ul>
+
+            <div class="dugmence">
+                <i class="fas fa-shopping-basket"></i>
+                <button class="dugme">(0)Proizvoda</button>
+            </div>
+        </div>
+    </header>
+
+    <div class="bar">
+
+        <div class="kategorije">
+            <h3>Sve Kategorije</h3>
+            <a href=""><i class="fas fa-bars fa-1x"></i></a>
+        </div>
+
+        <div class="pretraga">
+            <input type="text" placeholder="Naziv Proizvoda">
+        </div>
+
+        <select class="sve-kategorije" >
+            <option class="opcija" value="" disabled selected hidden>Sve kategorije</option>
+        </select>
+
+        <button class="lupa"><i class="fas fa-search fa-2x"></i></button>
+
+    </div>
+
+    <div class="sekcija-jedan">
+        <ul class="lista">
+            <li><a href="">Mrezna oprema</a></li>
+            <li><a href="">Periferije i dodatna oprema</a></li>
+            <li><a href="">Racunarske komponente</a></li>
+            <li><a href="">Konfiguracije, laptop i tablet</a></li>
+            <li><a href="">Multimedija</a></li>
+            <li><a href="">Video nadzor i smart home</a></li>
+            <li><a href="">Kuca i kancelarija</a></li>
+            <li><a href="">Gameing oprema</a></li>
+            <li><a href="">UPS i produzni kablovi</a></li>
+            <li><a href="">Software</a></li>
+            <li><a href="">Ekskluzivna ponuda</a></li>
+        </ul>
+
+        <div class="slika">
+
+            <div class="input">
+                <input class="inp" type="radio" name="radio-btn" id="radio1">
+                <input class="inp" type="radio" name="radio-btn" id="radio2">
+                <input class="inp" type="radio" name="radio-btn" id="radio3">
+                <input class="inp" type="radio" name="radio-btn" id="radio4">
+                <input class="inp" type="radio" name="radio-btn" id="radio5">
+            </div>
+
+            <!-- <div class="navigation-auto">
+                <div class="polje auto-btn1"></div>
+                <div class="polje auto-btn2"></div>
+                <div class="polje auto-btn3"></div>
+                <div class="polje auto-btn4"></div>
+                <div class="polje auto-btn5"></div>
+            </div> -->
+
+            <!-- <div class="label">
+                <label for="radio1" class="manual-btn jedan"></label>
+                <label for="radio2" class="manual-btn dva"></label>
+                <label for="radio3" class="manual-btn tri"></label>
+                <label for="radio4" class="manual-btn cetri"></label>
+                <label for="radio5" class="manual-btn pet"></label>
+            </div> -->
+
+            <img name="slide" alt="" width="900" height="550">
+            <button class="slide-btn1"><i class="far fa-angle-left"></i></button>
+            <button class="slide-btn2"><i class="far fa-angle-right"></i></button>
+
+        </div>
+    </div>
+
+    <div class="sekcija-dva">
+        <div class="izdvajamo">
+            <h3>Izdvajamo</h3>
+            <div class="slajdovi">
+                <div class="izdvajamo-slide first">
+                    <img src="/img/slika2.PNG" alt="" width="200px" height="200px">
+                    <p>Sonicgear MIMITZ TR 8000 White</p>
+                    <h4>12.990,00</h4>
+                </div>
+                <div class="izdvajamo-slide">
+                    <img src="/img/slika2.PNG" alt="" width="200px" height="200px">
+                    <p>Sonicgear MIMITZ TR 8000 White</p>
+                    <h4>12.990,00</h4>
+                </div>
+                <div class="izdvajamo-slide">
+                    <img src="/img/slika2.PNG" alt="" width="200px" height="200px">
+                    <p>Sonicgear MIMITZ TR 8000 White</p>
+                    <h4>12.990,00</h4>
+                </div>
+                <div class="izdvajamo-slide">
+                    <img src="/img/slika2.PNG" alt="" width="200px" height="200px">
+                    <p>Sonicgear MIMITZ TR 8000 White</p>
+                    <h4>12.990,00</h4>
+                </div>
+            </div>
+            <div class="input-izd">
+                <input class="i-izd" type="radio" name="radio-btn" id="radio-izd1">
+                <input class="i-izd" type="radio" name="radio-btn" id="radio-izd2">
+                <input class="i-izd" type="radio" name="radio-btn" id="radio-izd3">
+                <input class="i-izd" type="radio" name="radio-btn" id="radio-izd4">
+            </div>
+        </div>
+
+        <div class="naslov">
+            <div class="tekst">
+                <h2>Ekskluzivna ponuda</h2>
+                <div class="move">
+                    <button class="klik first"><i class="far fa-angle-left"></i></button>
+                    <button class="klik"><i class="far fa-angle-right"></i></button>
+                </div>
+            </div>
+            <hr>
+            <div class="kartice">
+                <div class="proizvodi">
+                    <div class="photo">
+                        <img alt="Picture of INTENSO 8GB Micro SD Card SDHC Class 10" 
+                        src="https://www.sampro.rs/images/thumbs/0005927_intenso-8gb-micro-sd-card-sdhc-class-10_200.jpeg"
+                        title="Prikaži detalje za INTENSO 8GB Micro SD Card SDHC Class 10">
+                    </div>
+                    <div class="details">
+                        <p>INTENSO 8GB Micro SD Card SDHC Class 10</p>
+                        <h4>12.990,00</h4>
+                    </div>
+                </div>
+
+                <div class="proizvodi">
+                    <div class="photo">
+                        <img alt="Picture of Edifier MP80 4.5W Portable BT Speakers"
+                         src="https://www.sampro.rs/images/thumbs/0005578_edifier-mp80-45w-portable-bt-speakers_200.png"
+                         title="Prikaži detalje za Edifier MP80 4.5W Portable BT Speakers">
+                    </div>
+                    <div class="details">
+                        <p>Edifier MP80 4.5W Portable BT Speakers</p>
+                        <h4>1.296,52</h4>
+                    </div>
+                </div>
+
+                <div class="proizvodi">
+                    <div class="photo">
+                        <img alt="Picture of INTENSO USB flash 3.0 16GB Slim Line"
+                         src="https://www.sampro.rs/images/thumbs/0005984_intenso-usb-flash-30-16gb-slim-line_200.jpeg"
+                         title="Prikaži detalje za INTENSO USB flash 3.0 16GB Slim Line">                    
+                    </div>
+                    <div class="details">
+                        <p>INTENSO USB flash 3.0 16GB Slim Line</p>
+                        <h4>529,40</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="baner">
+        <img src="/img/baner.PNG" alt="" >
+    </div>
+
+    <div class="header-button">
+        <ul class="nav">
+            <li class="tab active">Kucista</li>
+            <li class="tab">Slusalice i tastature</li>
+            <li class="tab">Razno</li>
+        </ul>
+    </div>
+
+    <div class="gaming-oprema">
+        <div class="prva">
+            <a href=""><img class="g-slika" src="https://www.sampro.rs/images/thumbs/0009479_gaming-oprema.jpeg"
+                 alt="Show products in category Gaming oprema" width="420px" height="360"></a>
+            <button class="oprema">Gaming Oprema</button>
+        
+            <div class="iskacuci-meni">
+                <ul class="gaming">
+                    <li><a href="">Tastature</a></li>
+                    <li><a href="">Misevi</a></li>
+                    <li><a href="">Kucista</a></li>
+                    <li><a href="">Monitori</a></li>
+                    <li><a href="">Pogledaj sve</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="druga">
+
+            <div class="komponenta prva">
+
+                <div class="picture">
+                    <img alt="Picture of SONICGEAR NIMITZ N7 white W/o PSU"
+                    src="https://www.sampro.rs/images/thumbs/0009486_sonicgear-nimitz-n7-white-wo-psu_200.jpeg"
+                    title="Prikaži detalje za SONICGEAR NIMITZ N7 Whie W/o PSU"
+                    width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">SONICGEAR NIMITZ N7 Whie W/o PSU</a>
+                    </h2>
+
+                    <span class="cena">3.990,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="komponenta druga">
+                <div class="picture">
+                    <img alt="Picture of InterTech ATX T-11 TELEVEN w/o PSU"
+                     src="https://www.sampro.rs/images/thumbs/0009311_intertech-atx-t-11-televen-wo-psu_200.jpeg" 
+                    title="Prikaži detalje za InterTech ATX T-11 TELEVEN w/o PSU"
+                    width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">InterTech ATX T-11 TELEVEN w/o PSU</a>
+                    </h2>
+
+                    <span class="cena">3.871,80</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta treca">
+                <div class="picture">
+                    <img alt="Picture of SONICGEAR TRON III Black W/O PSU"
+                     src="https://www.sampro.rs/images/thumbs/0008956_sonicgear-tron-iii-black-wo-psu_200.jpeg"
+                     title="Prikaži detalje za SONICGEAR TRON III Black W/O PSU"
+                     width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">SONICGEAR TRON III Black W/O PSU</a>
+                    </h2>
+
+                    <span class="cena">4.690,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta cetvrta">
+                <div class="picture">
+                    <img alt="Picture of SONICGEAR TRON II Black W/O PSU"
+                     src="https://www.sampro.rs/images/thumbs/0008952_sonicgear-tron-ii-black-wo-psu_200.jpeg"
+                     title="Prikaži detalje za SONICGEAR TRON II Black W/O PSU"
+                     width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">SONICGEAR TRON II Black W/O PSU</a>
+                    </h2>
+
+                    <span class="cena">3.490,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="header-button">
+        <ul class="nav">
+            <li class="tab active">Slusalice</li>
+            <li class="tab">Tastature i misevi</li>
+            <li class="tab">Monitori i stampaci</li>
+        </ul>
+    </div>
+
+    <div class="gaming-oprema">
+        <div class="prva">
+            <a href=""><img src="https://www.sampro.rs/images/thumbs/0007314_racunarske-komponente.jpeg"
+                 alt="Show products in category Računarske komponente" width="420px" height="360"></a> 
+
+             <button class="oprema">Racunarske Komponente</button>
+        
+            <div class="iskacuci-meni">
+                <ul class="gaming">
+                    <li><a href="">Procesori</a></li>
+                    <li><a href="">Maticne Ploce</a></li>
+                    <li><a href="">Memorija</a></li>
+                    <li><a href="">Graficke Karte</a></li>
+                    <li><a href="">Pogledaj sve</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="druga">
+
+            <div class="komponenta prva">
+
+                <div class="picture">
+                    <img alt="Picture of Edifier W200BT white"
+                     src="https://www.sampro.rs/images/thumbs/0009186_edifier-w200bt-white_200.jpeg"
+                     title="Prikaži detalje za Edifier W200BT white"
+                     height="115px" width="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">Edifier W200BT white</a>
+                    </h2>
+
+                    <span class="cena">4.299,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="komponenta druga">
+                <div class="picture">
+                    <img alt="Picture of Edifier H180 black bubice"
+                     src="https://www.sampro.rs/images/thumbs/0009147_edifier-h180-black-bubice_200.jpeg"
+                     title="Prikaži detalje za Edifier H180 black bubice"
+                     height="115px" width="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">Edifier H180 black bubice</a>
+                    </h2>
+
+                    <span class="cena">990,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta treca">
+                <div class="picture">
+                    <img alt="Picture of Edifier TWS1 BT black"
+                     src="https://www.sampro.rs/images/thumbs/0009162_edifier-tws1-bt-black_200.jpeg"
+                     title="Prikaži detalje za Edifier TWS1 BT black"
+                     height="115px" width="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">Edifier TWS1 BT black</a>
+                    </h2>
+
+                    <span class="cena">9.999,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta cetvrta">
+                <div class="picture">
+                    <img alt="Picture of Edifier W200BT black"
+                     src="https://www.sampro.rs/images/thumbs/0009175_edifier-w200bt-black_200.jpeg"
+                     title="Prikaži detalje za Edifier W200BT black"
+                     height="115px" width="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">Edifier W200BT black</a>
+                    </h2>
+
+                    <span class="cena">4.299,00</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="header-button">
+        <ul class="nav">
+            <li class="tab active">Wireless aktivni uredjaji</li>
+            <li class="tab">Wireless routeri</li>
+            <li class="tab">Lan</li>
+        </ul>
+    </div>
+
+    <div class="gaming-oprema">
+        <div class="prva">
+            <a href=""><img src="https://www.sampro.rs/images/thumbs/0002641_mrezna-oprema.jpeg"
+                 alt="Show products in category Mrežna oprema" width="420px" height="360"></a>
+            <button class="oprema">Mrezna Oprema</button>
+        
+            <div class="iskacuci-meni">
+                <ul class="gaming">
+                    <li><a href="">Wireless mreza</a></li>
+                    <li><a href="">LAN mreza</a></li>
+                    <li><a href="">Fiber oprema</a></li>
+                    <li><a href="">Rack ormani i oprema</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="druga">
+
+            <div class="komponenta prva">
+
+                <div class="picture">
+                    <img alt="Picture of UBIQUITI UniFI UAP-AC-LR"
+                     src="https://www.sampro.rs/images/thumbs/0004806_ubiquiti-unifi-uap-ac-lr_200.jpeg"
+                     title="Prikaži detalje za UBIQUITI UniFI UAP-AC-LR" width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">UBIQUITI UniFI UAP-AC-LR</a>
+                    </h2>
+
+                    <span class="cena">19.097,03</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="komponenta druga">
+                <div class="picture">
+                    <img alt="Picture of MIKROTIK RB951G-2HnD"
+                     src="https://www.sampro.rs/images/thumbs/0004734_mikrotik-rb951g-2hnd_200.jpeg"
+                     title="Prikaži detalje za MIKROTIK RB951G-2HnD" width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">MIKROTIK RB951G-2HnD</a>
+                    </h2>
+
+                    <span class="cena">10.898,83</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta treca">
+                <div class="picture">
+                    <img alt="Picture of UBIQUITI UniFI UAP AC Lite"
+                     src="https://www.sampro.rs/images/thumbs/0004029_ubiquiti-unifi-uap-ac-lite_200.png"
+                     title="Prikaži detalje za UBIQUITI UniFI UAP AC Lite" width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">UBIQUITI UniFI UAP AC Lite</a>
+                    </h2>
+
+                    <span class="cena">14.968,62</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="komponenta cetvrta">
+                <div class="picture">
+                    <img alt="Picture of UBIQUITI UniFI UAP-AC-M"
+                     src="https://www.sampro.rs/images/thumbs/0004841_ubiquiti-unifi-uap-ac-m_200.png"
+                     title="Prikaži detalje za UBIQUITI UniFI UAP-AC-M" width="115px" height="115px">
+                </div>
+
+                <div class="details">
+                    <div class="kvalitet">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+
+                    <h2 class="product-naslov">
+                        <a href="">UBIQUITI UniFI UAP-AC-M</a>
+                    </h2>
+
+                    <span class="cena">16.634,99</span>
+
+                    <div class="dugmici">
+                        <button class="dugmic"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dugmic"><i class="fas fa-heart"></i></button>
+                        <button class="dugmic"><i class="fas fa-shopping-basket"></i></button>
+                    </div>
+                </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="najprodavanije">
+        <div class="tekst">
+            <h2>Najprodavanije</h2>
+            <div class="move">
+                <button class="klik first"><i class="far fa-angle-left"></i></button>
+                <button class="klik"><i class="far fa-angle-right"></i></button>
+            </div>
+        </div>
+        <hr>
+
+        <div class="artikli">
+            <div class="product">
+                <div class="ikona">
+                    <img alt="Picture of Secomp HDMI High Speed with Ethernet  A-A M/M 1.0m"
+                     src="https://www.sampro.rs/images/thumbs/0006358_secomp-hdmi-high-speed-with-ethernet-a-a-mm-10m_200.jpeg"
+                     title="Prikaži detalje za Secomp HDMI High Speed with Ethernet  A-A M/M 1.0m">
+                </div>
+                <div class="opis">
+                    <div class="zvezdice">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+                    <h4>Secomp HDMI High Speed with Ethernet  A-A M/M 1.0m</h4>
+                    <span class="kosta">164.84</span>
+                    <div class="dodatni">
+                        <button class="dodatni-btn"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dodatni-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <button class="korpa"><i class="fas fa-shopping-basket"></i>Dodaj u korpu</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="ikona">
+                    <img alt="Picture of LogiLink set navoja M6 za rack orman" 
+                    src="https://www.sampro.rs/images/thumbs/0005706_logilink-set-navoja-m6-za-rack-orman_200.png" 
+                    title="Prikaži detalje za LogiLink set navoja M6 za rack orman">
+                </div>
+                <div class="opis">
+                    <div class="zvezdice">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+                    <h4>LogiLink set navoja M6 za rack orman</h4>
+                    <span class="kosta">20.00</span>
+                    <div class="dodatni">
+                        <button class="dodatni-btn"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dodatni-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <button class="korpa"><i class="fas fa-shopping-basket"></i>Dodaj u korpu</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="ikona">
+                    <img alt="Picture of Secomp UTP Cat6 Patch, beige, 0.5m" 
+                    src="https://www.sampro.rs/images/thumbs/0006601_secomp-utp-cat6-patch-beige-05m_200.jpeg" 
+                    title="Prikaži detalje za Secomp UTP Cat6 Patch, beige, 0.5m">
+                </div>
+                <div class="opis">
+                    <div class="zvezdice">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+                    <h4>Secomp UTP Cat6 Patch, beige, 0.5m</h4>
+                    <span class="kosta">58.92</span>
+                    <div class="dodatni">
+                        <button class="dodatni-btn"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dodatni-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <button class="korpa"><i class="fas fa-shopping-basket"></i>Dodaj u korpu</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="ikona">
+                    <img alt="Picture of InterTech kapica u boji UTP za RJ45 konektor" 
+                    src="https://www.sampro.rs/images/thumbs/0006700_intertech-kapica-u-boji-utp-za-rj45-konektor_200.jpeg" 
+                    title="Prikaži detalje za InterTech kapica u boji UTP za RJ45 konektor">
+                </div>
+                <div class="opis">
+                    <div class="zvezdice">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+                    <h4>InterTech kapica u boji UTP za RJ45 konektor</h4>
+                    <span class="kosta">5.98</span>
+                    <div class="dodatni">
+                        <button class="dodatni-btn"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dodatni-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <button class="korpa"><i class="fas fa-shopping-basket"></i>Dodaj u korpu</button>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="ikona">
+                    <img alt="Picture of Secomp UTP Cat5e Patch, beige, 5.0m" 
+                    src="https://www.sampro.rs/images/thumbs/0006595_secomp-utp-cat5e-patch-beige-50m_200.jpeg" 
+                    title="Prikaži detalje za Secomp UTP Cat5e Patch, beige, 5.0m">
+                </div>
+                <div class="opis">
+                    <div class="zvezdice">
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                        <i class="fal fa-star"></i>
+                    </div>
+                    <h4>Secomp UTP Cat5e Patch, beige, 5.0m</h4>
+                    <span class="kosta">118.81</span>
+                    <div class="dodatni">
+                        <button class="dodatni-btn"><i class="fas fa-exchange-alt"></i></button>
+                        <button class="dodatni-btn"><i class="fas fa-heart"></i></button>
+                    </div>
+                    <button class="korpa"><i class="fas fa-shopping-basket"></i>Dodaj u korpu</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="reklame">
+        <img class="main-image" src="https://www.sampro.rs/images/thumbs/0007237.gif" width="380px" height="150px">
+        <img class="main-image" src="https://www.sampro.rs/images/thumbs/0007240.gif" width="380px" height="150px">
+        <img class="main-image" src="https://www.sampro.rs/images/thumbs/0007316.jpeg" width="380px" height="150px">
+    </div>
+
+    <div class="saradnici">
+        <div class="slide first">
+            <img alt="Picture for manufacturer Divoom" 
+            src="https://www.sampro.rs/images/thumbs/0002419_divoom_250.jpeg" 
+            title="Show products manufactured by Divoom">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer Asus" 
+            src="https://www.sampro.rs/images/thumbs/0002414_asus_250.jpeg" 
+            title="Show products manufactured by Asus">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer LG" 
+            src="https://www.sampro.rs/images/thumbs/0002432_lg_250.jpeg" 
+            title="Show products manufactured by LG">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer Acer" 
+            src="https://www.sampro.rs/images/thumbs/0002411_acer_250.jpeg" 
+            title="Show products manufactured by Acer">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer Kasda" 
+            src="https://www.sampro.rs/images/thumbs/0002429_kasda_250.jpeg" 
+            title="Show products manufactured by Kasda">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer Netis" 
+            src="https://www.sampro.rs/images/thumbs/0002440_netis_250.jpeg" 
+            title="Show products manufactured by Netis">
+        </div>
+
+        <div class="slide">
+            <img alt="Picture for manufacturer Genius" 
+            src="https://www.sampro.rs/images/thumbs/0002424_genius_250.jpeg" 
+            title="Show products manufactured by Genius">
+        </div>
+    </div>
+
+    <div class="newsletter">
+        <div class="elements">
+            <span class="ime">Newsletter</span>
+            <input type="text" placeholder="Unesite vasu mail adresu">
+            <button class="send"><i class="fas fa-paper-plane fa-2x"></i></button>
+            <div class="social">           
+                <button class="soc"><i class="fab fa-facebook-f fa-2x"></i></button>
+                <button class="soc"><i class="fab fa-youtube fa-2x"></i></button>
+            </div>
+        </div>
+    </div>
+
+    <div class="informacije">
+        <ul class="info">
+            <li class="item first">Informacije</li>
+            <li class="item"><a href="">O nama</a></li>
+            <li class="item"><a href="">Isporuka robe</a></li>
+            <li class="item"><a href="">Uslovi isporuke</a></li>  
+            <li class="item"><a href="">Privatnost podataka</a></li>
+            <li class="item"><a href="">Sertifikati</a></li>
+        </ul>
+
+        <ul class="info">
+            <li class="item first">Korisnicki servis</li>
+            <li class="item"><a href="">Kontakt</a></li>
+            <li class="item"><a href="">Radno vreme</a></li>
+            <li class="item"><a href="">Uslovi koriscenja</a></li>
+            <li class="item"><a href="">Downloads</a></li>
+            <li class="item"><a href="">Brza podrska</a></li>
+        </ul>
+
+        <ul class="info">
+            <li class="item first">Moj nalog</li>
+            <li class="item"><a href="">Moj nalog</a></li>
+            <li class="item"><a href="">Porudzbine</a></li>
+            <li class="item"><a href="">Korpa</a></li>
+            <li class="item"><a href="">Lista zelja</a></li>
+            <li class="item"><a href="">Lista proizvoda za porudzbine</a></li>
+        </ul>
+
+
+        <ul class="info">
+            <li class="item first">Kontakt</li>
+            <li class="item"><i class="fas fa-map-marker-alt"></i>Njegoseva 19, 11080 Zemun</li>
+            <li class="item"><i class="fas fa-envelope"></i>prodaja@sampro.rs</li>
+            <li class="item"><i class="fas fa-mobile-android-alt"></i>011 307 50 60</li>
+        </ul>
+
+    </div>
+
+    <footer>
+        <span>Copyright © 2021 Sampro B2B. All rights reservd</span>
+        <span>Powered by nopCommerce</span>
+    </footer>
+
+    <script src="app.js"></script>
+    <script src="app2.js"></script>
+</body>
+</html>
